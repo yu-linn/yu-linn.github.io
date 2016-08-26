@@ -1,0 +1,156 @@
+
+
+header {
+	margin-left: 10px;
+	text-align: left;
+	font: 3em/100px "Dosis", sans-serif;
+
+ 	color: white;
+ 	position: fixed;
+	  left: 0;
+	  top: 150px;
+	  width: 8em;
+	  margin-top: -2.5em;
+
+
+
+}
+
+
+.button {
+ 
+ /*Step 2: Basic Button Styles*/
+ display: block;
+ height: 75px;
+ width: 250px;
+ background: #D7BDE2;
+  position: fixed;
+  left: 0;
+  top: 200px;
+  width: 8em;
+  margin-top: -2.5em;
+
+ 
+ /*Step 3: Text Styles*/
+ color: white;
+ text-align: right;
+ margin-bottom: 10px;
+ font: 2em/75px "Muli", sans-serif;
+ border-radius: 0px;
+}
+.button2 {
+ 
+ /*Step 2: Basic Button Styles*/
+ display: block;
+ height: 75px;
+ width: 250px;
+ background: #F8BBD0;
+  position: fixed;
+  left: 0;
+  top: 300px;
+  width: 8em;
+  margin-top: -2.5em;
+ 
+ /*Step 3: Text Styles*/
+ color: white;
+ text-align: right;
+ margin-bottom: 10px;
+ font: 2em/75px "Muli", sans-serif;
+ border-radius: 0px;
+}
+.button3 {
+ 
+ /*Step 2: Basic Button Styles*/
+ display: block;
+ height: 75px;
+ width: 250px;
+ background: #E6EE9C;
+  position: fixed;
+  left: 0;
+  top: 400px;
+  width: 8em;
+  margin-top: -2.5em;
+ 
+ /*Step 3: Text Styles*/
+ color: white;
+ text-align: right;
+ margin-bottom: 10px;
+ font: 2em/75px "Muli", sans-serif;
+ border-radius: 0px;
+}
+.button4 {
+ 
+ /*Step 2: Basic Button Styles*/
+ display: block;
+ height: 75px;
+ width: 250px;
+ background: #B3E5FC;
+  position: fixed;
+  left: 0;
+  top: 500px;
+  width: 8em;
+  margin-top: -2.5em;
+ 
+ /*Step 3: Text Styles*/
+ color: white;
+ text-align: right;
+ margin-bottom: 10px;
+ font: 2em/75px "Muli", sans-serif;
+ border-radius: 0px;
+}
+ 
+/*Step 3: Link Styling*/
+
+a.button {
+ text-decoration: none;
+}
+a.button2 {
+ text-decoration: none;
+}
+a.button3 {
+ text-decoration: none;
+}
+a.button4 {
+ text-decoration: none;
+}
+.button:hover {
+	color: grey;
+	background: white;
+}
+.button2:hover {
+	color: grey;
+	background: white;
+}
+.button3:hover {
+	color: grey;
+	background: white;
+}
+.button4:hover {
+	color: grey;
+	background: white;
+}
+
+body {
+	background-image: url("http://amxxcs.ru/wp/OQVbyBz.jpg");
+	background-color: white;
+}
+
+
+div.transbox {
+  margin-left: 300px;
+  margin-right: 10px;
+  margin-top: 120px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  background-color: white;
+
+  opacity: 0.6;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 10%;
+  font: 1.5em/50px "Open Sans", sans-serif;
+  color: black;
+}
+
