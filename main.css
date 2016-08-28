@@ -101,18 +101,7 @@ header {
  
 /*Step 3: Link Styling*/
 
-a.button {
- text-decoration: none;
-}
-a.button2 {
- text-decoration: none;
-}
-a.button3 {
- text-decoration: none;
-}
-a.button4 {
- text-decoration: none;
-}
+
 .button:hover {
 	color: grey;
 	background: white;
@@ -129,7 +118,18 @@ a.button4 {
 	color: grey;
 	background: white;
 }
-
+a.button {
+ text-decoration: none;
+}
+a.button2 {
+ text-decoration: none;
+}
+a.button3 {
+ text-decoration: none;
+}
+a.button4 {
+ text-decoration: none;
+}
 body {
 	background-image: url("http://amxxcs.ru/wp/OQVbyBz.jpg");
 	background-color: white;
@@ -145,12 +145,15 @@ div.transbox {
   background-color: white;
 
   opacity: 0.6;
+
   filter: alpha(opacity=90); /* For IE8 and earlier */
 }
 
 div.transbox p {
+  
   margin: 10%;
   font: 1.5em/50px "Open Sans", sans-serif;
   color: black;
 }
+
 
