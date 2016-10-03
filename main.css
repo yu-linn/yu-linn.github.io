@@ -1,159 +1,148 @@
+{
+  margin: 0;
+  padding: 0;
+  }
+.about {
+  height: 600px;
+  background-color: #FCF3CF;
+}
 
-
-header {
-	margin-left: 10px;
-	text-align: left;
-	font: 3em/100px "Dosis", sans-serif;
-
- 	color: white;
- 	position: fixed;
-	  left: 0;
-	  top: 150px;
-	  width: 8em;
-	  margin-top: -2.5em;
-
-
+h1{
+  font: 70px "Muli", sans-serif;
+  color: gray;
+  margin-top: 0px;
+  text-align: center;
+}
+div.content {
+  padding-left: 100px;
+  padding-right: 100px;
+  border: 3px solid #F8BBD0;
+  /*background-color: white;*/
+  opacity: 0.7;
+  border-radius: 100px;
+  width: 1000px;
+  position:absolute;
+  left: 150px;
+  /*box-shadow: 5px 5px gray;*/
+}
+p {
+  font: 25px "Muli", sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.project {
+  height:600px;
+  background-color: #EBDEF0;
+}
+.contact {
+  height: 600px;
+  background-color: LightCyan;
+}
+.parallex-bg {
+  padding: 200px 0;
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.0-9/11693891_10206485752054622_4423944929023978994_n.jpg?oh=57aa120994861eba06b401582dcd7acc&oe=586747A4);
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 
 }
 
+.parallex-bg h1 {
+  text-align: center;
+  margin-top: 12px;
+  /*text-transform: uppercase;*/
+  color: #fff;
+  padding: 40px;
+  font: 100px "Ubuntu", sans-serif;
+}
 
 .button {
- 
- /*Step 2: Basic Button Styles*/
- display: block;
- height: 75px;
- width: 250px;
- background: #D7BDE2;
-  position: fixed;
-  left: 0;
-  top: 200px;
-  width: 8em;
-  margin-top: -2.5em;
+   padding: 20px 40px;
+   border: 3px solid white;
+   color: white;
+   text-align: center;
+   margin-bottom: 10px;
+   font-family: Arial;
+   font-size: 40px;
+   border-radius: 5px;
+   /*text-transform: uppercase;*/
+   margin-left: 450px;
+   -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
 
- 
- /*Step 3: Text Styles*/
- color: white;
- text-align: right;
- margin-bottom: 10px;
- font: 2em/75px "Muli", sans-serif;
- border-radius: 0px;
 }
-.button2 {
- 
- /*Step 2: Basic Button Styles*/
- display: block;
- height: 75px;
- width: 250px;
- background: #F8BBD0;
-  position: fixed;
-  left: 0;
-  top: 300px;
-  width: 8em;
-  margin-top: -2.5em;
- 
- /*Step 3: Text Styles*/
- color: white;
- text-align: right;
- margin-bottom: 10px;
- font: 2em/75px "Muli", sans-serif;
- border-radius: 0px;
-}
-.button3 {
- 
- /*Step 2: Basic Button Styles*/
- display: block;
- height: 75px;
- width: 250px;
- background: #E6EE9C;
-  position: fixed;
-  left: 0;
-  top: 400px;
-  width: 8em;
-  margin-top: -2.5em;
- 
- /*Step 3: Text Styles*/
- color: white;
- text-align: right;
- margin-bottom: 10px;
- font: 2em/75px "Muli", sans-serif;
- border-radius: 0px;
-}
-.button4 {
- 
- /*Step 2: Basic Button Styles*/
- display: block;
- height: 75px;
- width: 250px;
- background: #B3E5FC;
-  position: fixed;
-  left: 0;
-  top: 500px;
-  width: 8em;
-  margin-top: -2.5em;
- 
- /*Step 3: Text Styles*/
- color: white;
- text-align: right;
- margin-bottom: 10px;
- font: 2em/75px "Muli", sans-serif;
- border-radius: 0px;
-}
- 
-/*Step 3: Link Styling*/
-
-
 .button:hover {
-	color: grey;
-	background: white;
-}
-.button2:hover {
-	color: grey;
-	background: white;
-}
-.button3:hover {
-	color: grey;
-	background: white;
-}
-.button4:hover {
-	color: grey;
-	background: white;
+  color: gray;
+
 }
 a.button {
  text-decoration: none;
 }
-a.button2 {
- text-decoration: none;
-}
-a.button3 {
- text-decoration: none;
-}
-a.button4 {
- text-decoration: none;
-}
-body {
-	background-image: url("http://amxxcs.ru/wp/OQVbyBz.jpg");
-	background-color: white;
-}
 
+.topb {
+  color: gray;
+  font: 20px Arial, sans-serif;
+  position: fixed;
+    right: 0;
+    top: 600px;
+    width: 8em;
+    margin-top: -2.5em;
 
-div.transbox {
-  margin-left: 300px;
-  margin-right: 10px;
-  margin-top: 120px;
-  padding-right: 100px;
-  padding-bottom: 100px;
-  background-color: white;
-
-  opacity: 0.6;
-
-  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: gray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 10px white;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-div.transbox p {
-  
-  margin: 10%;
-  font: 1.5em/50px "Open Sans", sans-serif;
-  color: black;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
 
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-family: Arial;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: gray}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: black;
+    color: white;
+}
+.dropdown-content {
+  right: 0;
+
+}
