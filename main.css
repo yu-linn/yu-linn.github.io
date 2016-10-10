@@ -46,6 +46,7 @@ p {
 .parallex-bg {
   padding: 200px 0;
   width: 1500px;
+  height: 600px;
   background-image: url(https://scontent.xx.fbcdn.net/v/t1.0-9/11693891_10206485752054622_4423944929023978994_n.jpg?oh=57aa120994861eba06b401582dcd7acc&oe=586747A4);
   background-color: black;
   background-size: cover;
@@ -59,7 +60,7 @@ p {
 .parallex-bg h1 {
   position: absolute;
   left: 360px;
-  top: 20px;
+  top: 150px;
   margin-top: 12px;
   /*text-transform: uppercase;*/
   color: #fff;
@@ -78,6 +79,8 @@ p {
    border-radius: 5px;
    /*text-transform: uppercase;*/
    margin-left: 450px;
+   position: absolute;
+   top: 350px;
    -webkit-transition-duration: 0.4s;
    transition-duration: 0.4s;
 
