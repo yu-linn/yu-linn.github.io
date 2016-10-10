@@ -1,9 +1,10 @@
-*{
+body {
   margin: 0;
   padding: 0;
   }
 .about {
   height: 600px;
+  width:1500px;
   background-color: #FCF3CF;
 }
 
@@ -11,7 +12,7 @@ h1{
   font: 70px "Muli", sans-serif;
   color: gray;
   margin-top: 0px;
-  text-align: center;
+  text-align: left;
 }
 div.content {
   padding-left: 100px;
@@ -33,15 +34,18 @@ p {
   padding-bottom: 50px;
 }
 .project {
+  width: 1500px;
   height:600px;
   background-color: #EBDEF0;
 }
 .contact {
+  width: 1500px;
   height: 600px;
   background-color: LightCyan;
 }
 .parallex-bg {
   padding: 200px 0;
+  width: 1500px;
   background-image: url(https://scontent.xx.fbcdn.net/v/t1.0-9/11693891_10206485752054622_4423944929023978994_n.jpg?oh=57aa120994861eba06b401582dcd7acc&oe=586747A4);
   background-color: black;
   background-size: cover;
@@ -53,7 +57,9 @@ p {
 }
 
 .parallex-bg h1 {
-  text-align: center;
+  position: absolute;
+  left: 360px;
+  top: 20px;
   margin-top: 12px;
   /*text-transform: uppercase;*/
   color: #fff;
