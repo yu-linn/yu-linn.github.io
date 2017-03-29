@@ -47,8 +47,8 @@ p {
   padding: 200px 0;
   width: 1500px;
   height: 600px;
-  background-image: url(http://i.imgur.com/PSE0ydj.jpg);
-  background-color: black;
+  background-image: url(https://raw.githubusercontent.com/yu-linn/yu-linn.github.io/master/host_image.jpg);
+  background-color: white;
   background-size: cover;
   background-attachment: fixed;
   -webkit-transition: all 0.2s ease;
