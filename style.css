@@ -145,6 +145,6 @@ br {
     .overlay .closebtn {
         font-size: 20px;
         top: 10px;
-        right: 5px;
+        right: 0px;
     }
 }
