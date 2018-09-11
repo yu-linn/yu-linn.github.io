@@ -39,7 +39,7 @@ function clear() {
 	$(".contacts").css("display","none");
 }
 var i = 0;
-var txt = "hello world, i'm yushan"; /* The text */
+var txt = "Hello world, I'm Yushan!"; /* The text */
 var speed = 80; /* The speed/duration of the effect in milliseconds */
 function typeWriter() {
   	if (i < txt.length) {
