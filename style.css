@@ -57,11 +57,8 @@ h1 {
     margin-top: 150px;
     margin-left: 30px;
     color: white;
-    /*font-size: 60px;*/
     font: 60px "Open Sans", sans-serif;
-    /*line-height: 10px;*/
-    /*bottom: 60px;*/
-    color: #FFE4E1;
+    color: pink;
     letter-spacing: 5px;
 }
 
@@ -89,19 +86,22 @@ h1 {
     font: "Ubuntu", sans-serif;
     letter-spacing: 5px;
     color: #3f51b5;
+    color: orange;
 }
 
-.projectName {
+.projectName a {
     font-size: 30px;
     /*text-align: center;*/
     padding: 5px;
-    color: #2e86de;
+    color: orange;
     font-weight: bold;
     letter-spacing: 5px;
 }
 
 .projectName a:hover, .projectName a:focus {
-    color: #f1f1f1;
+    color: yellow;
+    margin-left: 30px;
+    text-decoration: none;
 }
 
 .projects h3 {
@@ -122,20 +122,27 @@ h1 {
     line-height: 1.5;
     display: none;
 }
-.contacts{
+.contacts {
     position: relative;
    left:0px;
    bottom:0px;
    /*width:100%;*/
    font-size: 40px;
 }
-.contacts a, a:hover {
+.contacts a {
     text-decoration: none; 
     color: black;
     padding-left: 30px;
 }
 
+.content h2 a {
+    text-decoration: none;
+    color: orange;
+}
 
+.content h2 a:hover {
+    color: yellow;
+}
 br {
     line-height: 200%;
 }

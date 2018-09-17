@@ -11,7 +11,7 @@ $("#closebtn").click(function() {
 })
 
 $("#projects").click(function() {
-	$("body").css("background-color","#74b9ff");
+	// $("body").css("background-color","#FF7F50");
 	clear();
 	$(".projects").css("display","block");
 })
