@@ -135,6 +135,12 @@ h1 {
     padding-left: 30px;
 }
 
+.contacts a:hover {
+    text-decoration: none; 
+    color: pink;
+    font-size: 50px;
+}
+
 .content h2 a {
     text-decoration: none;
     color: orange;
