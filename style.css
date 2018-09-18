@@ -57,17 +57,18 @@ h1 {
     margin-top: 150px;
     margin-left: 30px;
     color: white;
-    font: 60px "Open Sans", sans-serif;
+    font: 60px "Roboto", sans-serif;
     letter-spacing: 5px;
 }
 
-.content {
+.content h2 {
     margin-top: 10px;
     margin-left: 20px;
     color: white;
     padding: 5px;
     line-height: 1.5;
-    font: "Open Sans", sans-serif;
+    font: "Roboto", sans-serif;
+    font-size: 25px;
 }
 
 .projects {
@@ -82,7 +83,7 @@ h1 {
 
 .projects h2 {
     font-size: 60px;
-    font: "Ubuntu", sans-serif;
+    font: "Roboto", sans-serif;
     letter-spacing: 5px;
     color: #3f51b5;
     color: white;
@@ -90,7 +91,7 @@ h1 {
 
 .projectName a {
     font-size: 30px;
-    /*text-align: center;*/
+    font: "Roboto", sans-serif;
     padding: 5px;
     color: orange;
     font-weight: bold;
@@ -110,7 +111,7 @@ h1 {
     padding: 5px;
     line-height: 1.5;
     font-size: 20px;
-    font: "Open Sans", sans-serif;
+    font: "Roboto", sans-serif;
 }
 
 .blog {
