@@ -38,7 +38,7 @@ function clear() {
 	$(".blog").css("display","none");
 	$(".contacts").css("display","none");
 }
-var i = 0;
+var i = 1;
 var txt = "Hello world, I'm Yushan!"; /* The text */
 var speed = 80; /* The speed/duration of the effect in milliseconds */
 function typeWriter() {
