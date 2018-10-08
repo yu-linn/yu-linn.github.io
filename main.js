@@ -19,9 +19,10 @@ $("#projects").click(function() {
 $("#about").click(function() {
 	$("body").css("background-color","#ED4337");
 	clear();
-	$("h1").css("display","block");
+	// $("h1").css("display","block");
 	$(".content").css("display","block");
 	$(".contacts").css("display","block");
+	$(".title").css("display","block");
 })
 
 $("#blog").click(function() {
@@ -33,10 +34,11 @@ $("#blog").click(function() {
 function clear() {
 	$("#myNav").css("height","0%");
 	$(".content").css("display","none");
-	$("h1").css("display","none");
+	$(".title").css("display","none");
 	$(".projects").css("display","none");
 	$(".blog").css("display","none");
 	$(".contacts").css("display","none");
+	// $("#profile").css("display","none");
 }
 var i = 1;
 var txt = "Hello world, I'm Yushan!"; /* The text */
